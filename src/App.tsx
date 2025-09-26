@@ -17,6 +17,8 @@ const languages = [
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const [currentView, setCurrentView] = useState('home');
 
   const handleSmartPlanning = () => {
